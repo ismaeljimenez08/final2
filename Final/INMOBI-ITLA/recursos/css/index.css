@@ -1,0 +1,66 @@
+/*Necesario para la trancision de imagenes de la pagina principal*/
+.swiper-container {
+	width: 100%;
+	height: 400px;
+}
+.swiper-slide {
+	background-position: center;
+	background-size: cover;
+}
+/*Espacio entre el body y el nav*/
+body{
+	padding-top:45px;
+}
+.rela2 { 
+	width:100%;
+	height:450px;
+	margin-bottom:30px;
+}
+/* Colores de fondo del layout */
+.fondo{
+	background-color:rgb(240, 240, 240);
+}
+.container{
+	background-color:rgb(255, 255, 255);
+}
+/* Pie de pagina (Footer)*/
+.piedepagina{
+	padding-top:50px;
+	width:100%;
+	height:250px;
+	background-color:rgb(205, 16, 26);
+	margin-bottom:0;
+}
+/*Div que parece boton, apariencia y comportamiento*/
+.divb{
+	background-color:rgb(205, 16, 26);
+	color:rgb(255, 255, 255);
+	padding-top:20px;
+	padding-bottom:20px;
+	text-align:center;
+}
+.divb:hover{
+	background-color:rgb(252, 216, 218);
+}
+/* Espacio en blanco entre div que parecen botones*/
+.divv{
+	padding-top:20px;
+	padding-bottom:20px;
+}
+/* tipo de letra para toda la pagina*/
+.letra{
+	font-family: Lucida Bright;
+}
+/* color de las letras para el footer*/
+/*Rojo casi Blanco*/
+.letracolor{
+	color:rgb(252, 216, 218);
+}
+/* Blanco */
+.colordos{
+	color:rgb(255, 255, 255);
+}
+/* tamaño del textarea */
+textarea#textarea{
+	height:160px;
+}
